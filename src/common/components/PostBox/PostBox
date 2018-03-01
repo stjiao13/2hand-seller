@@ -7,7 +7,7 @@ const ShareBox = (props) => {
       <FormGroup
         controlId="formBasicText"
       >
-        <ControlLabel>請輸入食譜名稱</ControlLabel>
+        <ControlLabel>Please type product name</ControlLabel>
         <FormControl
           type="text"
           placeholder="Enter text"

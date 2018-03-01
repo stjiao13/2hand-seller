@@ -6,11 +6,11 @@ import {
   SET_RECIPE,
 } from '../../constants/actionTypes';
 
-const recipeReducers = handleActions({
+const itemReducers = handleActions({
   GET_RECIPES: (state, { payload }) => (
     state.set(
-      'recipes',
-      payload.recipes
+      'items',
+      payload.items
     )
   ),
   SET_RECIPE: (state, { payload }) => (
@@ -18,4 +18,4 @@ const recipeReducers = handleActions({
   ),  
 }, RecipeState);
 
-export default recipeReducers;
+export default itemReducers;

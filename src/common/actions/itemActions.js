@@ -2,15 +2,15 @@ import { createAction } from 'redux-actions';
 import WebAPI from '../utils/WebAPI';
 
 import {
-  GET_RECIPES,
-  ADD_RECIPE,
-  UPDATE_RECIPE,
-  DELETE_RECIPE,
-  SET_RECIPE,
+  GET_ITEMS,
+  ADD_ITEM,
+  UPDATE_ITEM,
+  DELETE_ITEM,
+  SET_ITEM,
 } from '../constants/actionTypes';
 
-export const getRecipes = createAction('GET_RECIPES', WebAPI.getRecipes);
-export const addRecipe = createAction('ADD_RECIPE', WebAPI.addRecipe);
-export const updateRecipe = createAction('UPDATE_RECIPE', WebAPI.updateRecipe);
-export const deleteRecipe = createAction('DELETE_RECIPE', WebAPI.deleteRecipe);
-export const setRecipe = createAction('SET_RECIPE');
+export const getItems = createAction('GET_ITEMS', WebAPI.getItems);
+export const addItem = createAction('ADD_ITEM', WebAPI.addItem);
+export const updateItem = createAction('UPDATE_ITEM', WebAPI.updateItem);
+export const deleteItem = createAction('DELETE_ITEM', WebAPI.deleteItem);
+export const setItem = createAction('SET_ITEM');
